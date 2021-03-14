@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contents Buddy</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="16x16">
+        <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
+        <link type="text/css" href="css/jquery.bxslider.css" rel="stylesheet" />
+        <!--<link type="text/css" href="css/owl.carousel.min.css" rel="stylesheet" />-->
+        <link type="text/css" href="css/font-awesome.min.css" rel="stylesheet" />
+        <link type="text/css" href="css/nice-select.css" rel="stylesheet" />
+        <link type="text/css" href="css/all.css" rel="stylesheet" />
+    </head>
+    <body>
+        <main class="full-page">
+            <div class="cus-sidebar">
+                <div class="logo">
+                    <a href="signin.html"><img src="img/logo.png" alt="Logo" /></a>
+                </div>
+                <div class="side-list">
+                    <h4><a href="claimed-content.html">My Claimed Content<span>3</span></a></h4>
+                    <ul>
+                        <li><a href="bedroom-damaged-item.html">1 - Bedroom Damaged Items <span><img src="img/white-right-icon.png" alt="icon" /></span></a></li>
+                        <li><a href="#">2 - Laundry Room <span><img src="img/white-right-icon.png" alt="icon" /></span></a></li>
+                        <li><a href="#">3 - Other Items <span><img src="img/white-right-icon.png" alt="icon" /></span></a></li>
+                    </ul>
+                    <div class="add-list"><a href="add-item.html">+ Add new item</a></div>
+                </div>
+            </div>
+            <div class="cus-section">
+                <header>
+                    <div class="head-left">
+                        <span class="bread-heading">You are in:</span>
+                        <ul class="cus-bread">
+                            <li><a href="index.html">Home</a></li>
+                        </ul>
+                        <div class="menu-icon">
+                            <a href="#"><img src="img/menu-icon.png" alt="Icon" /></a>
+                        </div>
+                        <div class="logo">
+                            <a href="signin.html"><img src="img/logo.png" alt="Logo" /></a>
+                        </div>
+                    </div>
+                    <div class="head-right">
+                        <div class="cus-pro-main">
+                            <a class="pro-drop-main" href="#">
+                                <figure style="background-image: url('img/profile.png')"></figure>
+                                <span class="pro-text">Russell Robinson</span>
+                                <span class="drop-icon"><img src="img/orange-bot-icon.png" alt="icon" /></span>
+                            </a>
+                            <ul class="cus-pro-drop">
+                                <li>Edit Profile</li>
+                                <li>Settings</li>
+                                <li>Log Out</li>
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+                <div class="page-inside">
+                    <h3>Add Item</h3>
+                    <div class="cus-select-area">
+                        <select>
+                            <option>Bedroom</option>
+                            <option>Laundry</option>
+                            <option>Other</option>
+                        </select>
+                        <div class="cus-btn-main">
+                            <a href="#" class="cus-btn">Save</a>
+                        </div>
+                    </div>
+                    <div class="heading-btn-sec">
+                        <h3>Add Photos</h3>
+                        <a href="add-item.html" class="cus-btn-green">Add Photos</a>
+                    </div>
+                    <div class="main-top-row">
+                        <div class="content-img-detail">
+                            <div class="img-with-text">
+                                <img src="img/group-icon.png" alt="icon">
+                                <strong>12</strong>
+                                <span>Groups</span>
+                            </div>
+                            <div class="img-with-text">
+                                <img src="img/photos-icon.png" alt="icon">
+                                <strong>363</strong>
+                                <span>Photos</span>
+                            </div>
+                        </div>
+                        <div class="sort-btn-right">
+                            <a href="add-item.html" class="cus-btn-green cus-btn-image"><img src="img/c-group-icon.png" alt="icon"> Create Group</a>
+                            <a href="#" class="bg-sort-color"><img src="img/list-view-icon.png" alt="icon"></a>
+                            <a href="#" class="bg-sort-color"><img src="img/thumb-view-icon.png" alt="icon"></a>
+                        </div>
+                    </div>
+                    <div class="sort-item-main-sec">
+                        <div class="sort-item-row">
+                            <figure style="background-image: url('img/img1.png')"></figure>
+                            <div class="sort-detail-area-sec">
+                                <div class="sort-top-row">
+                                    <div class="sort-top-col">
+                                        <span class="sort-sub-title">Bedroom</span>
+                                        <h4>No title added yet</h4>
+                                    </div>
+                                    <div class="sort-top-col sort-top-col-right">
+                                        <a href="#" data-toggle="modal" data-target="#myModal" class="cus-btn-orange cus-btn-image">+ Add Multiple Info</a>
+                                        <a href="#" class=""><img src="img/pen-icon.png" alt="icon"></a>
+                                        <a href="#" class=""><img src="img/del-icon.png" alt="icon"></a>
+                                    </div>
+                                </div>
+                                <div class="sort-bot-row">
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Brand/ Manufacture</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Model & Serial Number</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Quantity Lost</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Age</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Cost to Replace (each) Pre Tax</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sort-item-row">
+                            <figure style="background-image: url('img/img1.png')"></figure>
+                            <div class="sort-detail-area-sec">
+                                <div class="sort-top-row">
+                                    <div class="sort-top-col">
+                                        <span class="sort-sub-title">Bedroom</span>
+                                        <h4>No title added yet</h4>
+                                    </div>
+                                    <div class="sort-top-col sort-top-col-right">
+                                        <a href="add-item.html" class="cus-btn-orange cus-btn-image">+ Add Multiple Info</a>
+                                        <a href="#" class=""><img src="img/pen-icon.png" alt="icon"></a>
+                                        <a href="#" class=""><img src="img/del-icon.png" alt="icon"></a>
+                                    </div>
+                                </div>
+                                <div class="sort-bot-row">
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Brand/ Manufacture</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Model & Serial Number</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Quantity Lost</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Age</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Cost to Replace (each) Pre Tax</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sort-item-row">
+                            <figure style="background-image: url('img/img1.png')"></figure>
+                            <div class="sort-detail-area-sec">
+                                <div class="sort-top-row">
+                                    <div class="sort-top-col">
+                                        <span class="sort-sub-title">Bedroom</span>
+                                        <h4>No title added yet</h4>
+                                    </div>
+                                    <div class="sort-top-col sort-top-col-right">
+                                        <a href="add-item.html" class="cus-btn-orange cus-btn-image">+ Add Multiple Info</a>
+                                        <a href="#" class=""><img src="img/pen-icon.png" alt="icon"></a>
+                                        <a href="#" class=""><img src="img/del-icon.png" alt="icon"></a>
+                                    </div>
+                                </div>
+                                <div class="sort-bot-row">
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Brand/ Manufacture</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Model & Serial Number</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Quantity Lost</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Age</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Cost to Replace (each) Pre Tax</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sort-item-row">
+                            <figure style="background-image: url('img/img1.png')"></figure>
+                            <div class="sort-detail-area-sec">
+                                <div class="sort-top-row">
+                                    <div class="sort-top-col">
+                                        <span class="sort-sub-title">Bedroom</span>
+                                        <h4>No title added yet</h4>
+                                    </div>
+                                    <div class="sort-top-col sort-top-col-right">
+                                        <a href="add-item.html" class="cus-btn-orange cus-btn-image">+ Add Multiple Info</a>
+                                        <a href="#" class=""><img src="img/pen-icon.png" alt="icon"></a>
+                                        <a href="#" class=""><img src="img/del-icon.png" alt="icon"></a>
+                                    </div>
+                                </div>
+                                <div class="sort-bot-row">
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Brand/ Manufacture</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Model & Serial Number</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Quantity Lost</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Age</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Cost to Replace (each) Pre Tax</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sort-item-row">
+                            <figure style="background-image: url('img/img1.png')"></figure>
+                            <div class="sort-detail-area-sec">
+                                <div class="sort-top-row">
+                                    <div class="sort-top-col">
+                                        <span class="sort-sub-title">Bedroom</span>
+                                        <h4>No title added yet</h4>
+                                    </div>
+                                    <div class="sort-top-col sort-top-col-right">
+                                        <a href="add-item.html" class="cus-btn-orange cus-btn-image">+ Add Multiple Info</a>
+                                        <a href="#" class=""><img src="img/pen-icon.png" alt="icon"></a>
+                                        <a href="#" class=""><img src="img/del-icon.png" alt="icon"></a>
+                                    </div>
+                                </div>
+                                <div class="sort-bot-row">
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Brand/ Manufacture</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Model & Serial Number</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Quantity Lost</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Age</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Cost to Replace (each) Pre Tax</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sort-item-row">
+                            <figure style="background-image: url('img/img1.png')"></figure>
+                            <div class="sort-detail-area-sec">
+                                <div class="sort-top-row">
+                                    <div class="sort-top-col">
+                                        <span class="sort-sub-title">Bedroom</span>
+                                        <h4>No title added yet</h4>
+                                    </div>
+                                    <div class="sort-top-col sort-top-col-right">
+                                        <a href="add-item.html" class="cus-btn-orange cus-btn-image">+ Add Multiple Info</a>
+                                        <a href="#" class=""><img src="img/pen-icon.png" alt="icon"></a>
+                                        <a href="#" class=""><img src="img/del-icon.png" alt="icon"></a>
+                                    </div>
+                                </div>
+                                <div class="sort-bot-row">
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Brand/ Manufacture</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Model & Serial Number</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Quantity Lost</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Age</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Cost to Replace (each) Pre Tax</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sort-item-row">
+                            <figure style="background-image: url('img/img1.png')"></figure>
+                            <div class="sort-detail-area-sec">
+                                <div class="sort-top-row">
+                                    <div class="sort-top-col">
+                                        <span class="sort-sub-title">Bedroom</span>
+                                        <h4>No title added yet</h4>
+                                    </div>
+                                    <div class="sort-top-col sort-top-col-right">
+                                        <a href="add-item.html" class="cus-btn-orange cus-btn-image">+ Add Multiple Info</a>
+                                        <a href="#" class=""><img src="img/pen-icon.png" alt="icon"></a>
+                                        <a href="#" class=""><img src="img/del-icon.png" alt="icon"></a>
+                                    </div>
+                                </div>
+                                <div class="sort-bot-row">
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Brand/ Manufacture</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Model & Serial Number</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Quantity Lost</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Age</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Cost to Replace (each) Pre Tax</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sort-item-row">
+                            <figure style="background-image: url('img/img1.png')"></figure>
+                            <div class="sort-detail-area-sec">
+                                <div class="sort-top-row">
+                                    <div class="sort-top-col">
+                                        <span class="sort-sub-title">Bedroom</span>
+                                        <h4>No title added yet</h4>
+                                    </div>
+                                    <div class="sort-top-col sort-top-col-right">
+                                        <a href="add-item.html" class="cus-btn-orange cus-btn-image">+ Add Multiple Info</a>
+                                        <a href="#" class=""><img src="img/pen-icon.png" alt="icon"></a>
+                                        <a href="#" class=""><img src="img/del-icon.png" alt="icon"></a>
+                                    </div>
+                                </div>
+                                <div class="sort-bot-row">
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Brand/ Manufacture</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Model & Serial Number</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Quantity Lost</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Age</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Cost to Replace (each) Pre Tax</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sort-item-row">
+                            <figure style="background-image: url('img/img1.png')"></figure>
+                            <div class="sort-detail-area-sec">
+                                <div class="sort-top-row">
+                                    <div class="sort-top-col">
+                                        <span class="sort-sub-title">Bedroom</span>
+                                        <h4>No title added yet</h4>
+                                    </div>
+                                    <div class="sort-top-col sort-top-col-right">
+                                        <a href="add-item.html" class="cus-btn-orange cus-btn-image">+ Add Multiple Info</a>
+                                        <a href="#" class=""><img src="img/pen-icon.png" alt="icon"></a>
+                                        <a href="#" class=""><img src="img/del-icon.png" alt="icon"></a>
+                                    </div>
+                                </div>
+                                <div class="sort-bot-row">
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Brand/ Manufacture</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Model & Serial Number</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Quantity Lost</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Age</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Cost to Replace (each) Pre Tax</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sort-item-row">
+                            <figure style="background-image: url('img/img1.png')"></figure>
+                            <div class="sort-detail-area-sec">
+                                <div class="sort-top-row">
+                                    <div class="sort-top-col">
+                                        <span class="sort-sub-title">Bedroom</span>
+                                        <h4>No title added yet</h4>
+                                    </div>
+                                    <div class="sort-top-col sort-top-col-right">
+                                        <a href="add-item.html" class="cus-btn-orange cus-btn-image">+ Add Multiple Info</a>
+                                        <a href="#" class=""><img src="img/pen-icon.png" alt="icon"></a>
+                                        <a href="#" class=""><img src="img/del-icon.png" alt="icon"></a>
+                                    </div>
+                                </div>
+                                <div class="sort-bot-row">
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Brand/ Manufacture</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Model & Serial Number</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Quantity Lost</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Age</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Cost to Replace (each) Pre Tax</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sort-item-row">
+                            <figure style="background-image: url('img/img1.png')"></figure>
+                            <div class="sort-detail-area-sec">
+                                <div class="sort-top-row">
+                                    <div class="sort-top-col">
+                                        <span class="sort-sub-title">Bedroom</span>
+                                        <h4>No title added yet</h4>
+                                    </div>
+                                    <div class="sort-top-col sort-top-col-right">
+                                        <a href="add-item.html" class="cus-btn-orange cus-btn-image">+ Add Multiple Info</a>
+                                        <a href="#" class=""><img src="img/pen-icon.png" alt="icon"></a>
+                                        <a href="#" class=""><img src="img/del-icon.png" alt="icon"></a>
+                                    </div>
+                                </div>
+                                <div class="sort-bot-row">
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Brand/ Manufacture</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Model & Serial Number</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Quantity Lost</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Age</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                    <div class="sort-bot-col">
+                                        <span class="sort-bot-title">Cost to Replace (each) Pre Tax</span>
+                                        <span class="sort-bot-detail">No info added</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="cus-form">
+                            <button type="button" class="close cus-modal-xbtn" data-dismiss="modal"></button>
+                            <h4>Add info</h4>
+                            <div class="cus-input-row">
+                                <label>Room name *</label>
+                                <input type="text" name="group-name" />
+                            </div>
+                            <div class="cus-input-row">
+                                <label>Item name *</label>
+                                <input type="text" name="group-name" />
+                            </div>
+                            <div class="cus-input-row">
+                                <label>Brand/Manufacture *</label>
+                                <input type="text" name="group-name" />
+                            </div>
+                            <div class="cus-input-row">
+                                <label>Model & S/N *</label>
+                                <input type="text" name="group-name" />
+                            </div>
+                            <div class="cus-input-row">
+                                <label>Quantity Lost *</label>
+                                <input type="text" name="group-name" />
+                            </div>
+                            <div class="cus-input-row-double">
+                                <div class="cus-input-row">
+                                    <label>Age (years) *</label>
+                                    <input type="text" name="group-name" />
+                                </div>
+                                <div class="cus-input-row">
+                                    <label>Age (months) *</label>
+                                    <input type="text" name="group-name" />
+                                </div>
+                            </div>
+                            <div class="cus-btn-main">
+                                <input type="submit" value="Save Info" class="cus-btn" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.nice-select.min.js"></script>
+        <script src="js/jquery.bxslider.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('select').niceSelect();
+                $('header .pro-drop-main').click(function () {
+                    $('.cus-pro-drop').slideToggle();
+                });
+                $('.menu-icon').click(function () {
+                    $('.cus-sidebar').toggleClass('cus-sidebar-view');
+                });
+            });
+        </script>
+    </body>
+</html>
